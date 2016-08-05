@@ -9,10 +9,8 @@
 title: Guide to Allyship
 email: guidetoallyship@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is an unofficial, community guide for anyone who is
-  interested in becoming an ally. If you’d like to
-  contribute to this project, please submit a pull request
-  or send an email.
+  Guide to Allyship is an open-source guide for anyone who is
+  interested in becoming an ally.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.guidetoallyship.com" # the base hostname & protocol for your site
 
