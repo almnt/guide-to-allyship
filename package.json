@@ -1,0 +1,23 @@
+{
+  "name": "pp-guide-to-allyship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almnt/guide-to-allyship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almnt/guide-to-allyship/issues"
+  },
+  "homepage": "https://github.com/almnt/guide-to-allyship#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
