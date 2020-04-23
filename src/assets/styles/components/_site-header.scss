@@ -1,0 +1,24 @@
+.site-header {
+  border-top: 20px solid $black;
+  min-height: 80vh;
+  padding-top: 20vh;
+}
+
+.site-header__copy {
+  margin-top: 30px;
+  max-width: 335px;
+}
+
+.site-header__title {
+  color: $black-color;
+  font-family: $font-family--heading;
+  font-size: $font-size--large;
+  letter-spacing: 1px;
+  line-height: $line-height--heading;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.site-header__highlight {
+  color: $brand-color;
+}

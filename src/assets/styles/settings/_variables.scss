@@ -1,0 +1,25 @@
+// Background Colors
+$background-color--base: $white;
+$background-color--dark: $black;
+
+// Font Colors
+$font-color--base: $black;
+$font-color--action: $blue;
+$font-color--brand: $blue;
+$font-color--light: $white;
+
+// Font Size
+$font-size--base: 16px;
+$font-size--small: $font-size--base * 0.875;
+$font-size--large: $font-size--base * 4;
+
+// Line Heights
+$line-height--body: 1.5;
+$line-height--heading: 1.15;
+
+// Space
+$space--base: 1rem;
+$space--x-small: $space--base * 0.25;
+$space--small: $space--base * 0.5;
+$space--large: $space--base * 2;
+$space--x-large: $space--base * 4;

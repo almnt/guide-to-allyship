@@ -19,5 +19,8 @@
   "homepage": "https://github.com/almnt/guide-to-allyship#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.0.0"
   }
 }

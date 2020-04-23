@@ -1,0 +1,25 @@
+html {
+  color: $font-color--base;
+  font-family: $font-family--base;
+  font-size: $font-size--base;
+  font-weight: $font-weight--normal;
+}
+
+body {
+  line-height: $line-height--body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: $line-height--heading;
+  margin: 0 0 $space--small;
+}
+
+p {
+  margin: 0 0 $space--small;
+}
