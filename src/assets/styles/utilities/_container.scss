@@ -1,0 +1,25 @@
+@mixin container--width($width) {
+  max-width: $width;
+}
+
+@mixin container--center {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $space--base;
+  padding-right: $space--base;
+}
+
+.container--base {
+  @include container--center;
+  @include container--width($container-width--base);
+}
+
+.container--small {
+  @include container--center;
+  @include container--width($container-width--small);
+}
+
+.container--medium {
+  @include container--center;
+  @include container--width($container-width--medium);
+}
