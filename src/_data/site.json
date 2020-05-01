@@ -4,6 +4,7 @@
   "url": "http://www.guidetoallyship.com",
   "baseurl": "",
   "repo": "http://github.com/almnt/guide-to-allyship",
+  "description": "An open-source guide for anyone interested in becoming an ally.",
   "comments": false,
   "author": {
     "name": "Amélie Lamont"
