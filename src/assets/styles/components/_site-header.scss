@@ -1,24 +1,24 @@
 .site-header {
-  border-top: 20px solid $black;
-  min-height: 80vh;
-  padding-top: 20vh;
+  border-top: 20px solid $color--base;
+  height: 95vh;
 }
 
-.site-header__copy {
-  margin-top: 30px;
-  max-width: 335px;
+.site-header__container {
+  margin: 30vh auto 0;
+  max-width: 320px;
+  padding: 0 $space--base;
 }
 
 .site-header__title {
-  color: $black-color;
+  color: $font-color--base;
   font-family: $font-family--heading;
   font-size: $font-size--large;
   letter-spacing: 1px;
   line-height: $line-height--heading;
-  margin: 0 auto;
+  margin-bottom: $space--medium;
   text-transform: uppercase;
 }
 
 .site-header__highlight {
-  color: $brand-color;
+  color: $font-color--brand;
 }
