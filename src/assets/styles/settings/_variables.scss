@@ -2,11 +2,17 @@
 $background-color--base: $white;
 $background-color--dark: $black;
 
+// Colors
+$color--base: $black;
+$color--action: $blue;
+$color--light: $white;
+$color--primary: $blue;
+
 // Font Colors
-$font-color--base: $black;
-$font-color--action: $blue;
-$font-color--brand: $blue;
-$font-color--light: $white;
+$font-color--base: $color--base;
+$font-color--action: $color--action;
+$font-color--brand: $color--primary;
+$font-color--light: $color--light;
 
 // Font Size
 $font-size--base: 16px;
@@ -21,5 +27,6 @@ $line-height--heading: 1.15;
 $space--base: 1rem;
 $space--x-small: $space--base * 0.25;
 $space--small: $space--base * 0.5;
+$space--medium: $space--base * 1.5;
 $space--large: $space--base * 2;
 $space--x-large: $space--base * 4;
