@@ -24,3 +24,13 @@ h6 {
 p {
   margin: 0 0 $space--small;
 }
+
+a {
+  color: $font-color--action;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: wavy;
+  }
+}
