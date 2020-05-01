@@ -3,18 +3,13 @@
   height: 95vh;
 }
 
-.site-header__container {
-  margin: 30vh auto 0;
-  max-width: 320px;
-  padding: 0 $space--base;
-}
-
 .site-header__title {
   color: $font-color--base;
   font-family: $font-family--heading;
   font-size: $font-size--large;
   letter-spacing: 1px;
   line-height: $line-height--heading;
+  margin-top: 30vh;
   margin-bottom: $space--medium;
   text-transform: uppercase;
 }
