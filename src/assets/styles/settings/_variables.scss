@@ -10,7 +10,7 @@ $color--primary: $blue;
 
 // Container Sizes
 $container-width--base: 700px;
-$container-width--small: 320px;
+$container-width--small: 350px;
 $container-width--medium: 500px;
 
 // Font Colors
@@ -20,7 +20,7 @@ $font-color--brand: $color--primary;
 $font-color--light: $color--light;
 
 // Font Size
-$font-size--base: 16px;
+$font-size--base: 18px;
 $font-size--small: $font-size--base * 0.875;
 $font-size--large: $font-size--base * 4;
 
@@ -35,3 +35,10 @@ $space--small: $space--base * 0.5;
 $space--medium: $space--base * 1.5;
 $space--large: $space--base * 2;
 $space--x-large: $space--base * 4;
+
+// Borders
+$border--base: 2px;
+$border--small: $border--base / 2;
+$border--medium: $border--base * 1.5;
+$border--large: $border--base * 2;
+$border--color: $color--primary;
