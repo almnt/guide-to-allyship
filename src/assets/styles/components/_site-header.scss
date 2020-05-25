@@ -1,6 +1,8 @@
 .site-header {
   border-top: 20px solid $color--base;
-  height: 95vh;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
 }
 
 .site-header__title {
@@ -9,7 +11,6 @@
   font-size: $font-size--large;
   letter-spacing: 1px;
   line-height: $line-height--heading;
-  margin-top: 30vh;
   margin-bottom: $space--medium;
   text-transform: uppercase;
 }
