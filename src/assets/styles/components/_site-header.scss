@@ -1,0 +1,16 @@
+.site-header {
+  border-top: 20px solid $color--base;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.site-header__title {
+  color: $font-color--base;
+  font-family: $font-family--heading;
+  font-size: $font-size--large;
+  letter-spacing: 1px;
+  line-height: $line-height--heading;
+  margin-bottom: $space--medium;
+  text-transform: uppercase;
+}

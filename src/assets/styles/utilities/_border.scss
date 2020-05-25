@@ -1,0 +1,28 @@
+$border-sizes: (
+  "small": $border--small,
+  "medium": $border--medium,
+  "large": $border--large,
+);
+
+$border-places: (
+  "bt": "border-top",
+  "br": "border-right",
+  "bb": "border-bottom",
+  "bl": "border-left",
+);
+
+// Default borders (e.g. .border--mt)
+@each $border-name, $border-property in $border-places {
+  .border--#{$border-name} {
+    #{$border-property}: $border--base solid $border--color;
+  }
+}
+
+// Specific sized individual borders (e.g. .border--mt--small)
+@each $size-name, $size-value in $border-sizes {
+  @each $border-name, $border-property in $border-places {
+    .border--#{$border-name}--#{$size-name} {
+      #{$border-property}: $size-value solid $border--color;
+    }
+  }
+}

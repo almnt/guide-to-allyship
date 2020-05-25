@@ -1,0 +1,30 @@
+.text--highlight {
+  color: $font-color--brand;
+}
+
+.text--headline {
+  text-transform: uppercase;
+
+  &--1 {
+    font-size: 64px;
+    line-height: 1.2;
+  }
+
+  &--2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  &--3 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+
+.text--lowercase {
+  text-transform: lowercase;
+}
+
+.text--emphasis {
+  font-style: italic;
+}

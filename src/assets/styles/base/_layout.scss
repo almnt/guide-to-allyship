@@ -1,0 +1,41 @@
+html {
+  background-color: $background-color--base;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  margin-top: $space--x-large;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $gray-light;
+  margin: $space--x-large 0 $space--large;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  margin-bottom: $space--small;
+}
+
+a {
+  color: $font-color--action;
+}

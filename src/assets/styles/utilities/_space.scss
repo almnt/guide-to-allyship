@@ -1,0 +1,102 @@
+$space-sizes: (
+  "small-x": $space--x-small,
+  "small": $space--small,
+  "medium": $space--medium,
+  "large": $space--large,
+  "large-x": $space--x-large,
+);
+
+$space-places: (
+  "mt": "margin-top",
+  "mr": "margin-right",
+  "mb": "margin-bottom",
+  "ml": "margin-left",
+  "pt": "padding-top",
+  "pr": "padding-right",
+  "pb": "padding-bottom",
+  "pl": "padding-left",
+);
+
+// Margin Clear -- keep at top of file so it can be overwridden in the cascade with the more specific classes below it when needed
+.space--m--clear {
+  margin: 0;
+}
+
+// Default spaces (e.g. .space--mt)
+@each $space-name, $space-property in $space-places {
+  .space--#{$space-name} {
+    #{$space-property}: $space--base;
+  }
+}
+
+// Vertical Spaces
+.space--mv {
+  margin-bottom: $space--base;
+  margin-top: $space--base;
+}
+
+.space--pv {
+  padding-bottom: $space--base;
+  padding-top: $space--base;
+}
+
+.space--mh--centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Horizontal Spaces
+.space--ph {
+  padding-left: $space--base;
+  padding-right: $space--base;
+}
+
+// Padding all sides
+.space--pg {
+  padding: $space--base;
+}
+
+// Specific sized individual spaces (e.g. .space--mt--small)
+@each $size-name, $size-value in $space-sizes {
+  @each $space-name, $space-property in $space-places {
+    .space--#{$space-name}--#{$size-name} {
+      #{$space-property}: $size-value;
+    }
+  }
+}
+
+// Specific sized Vertical and Horizontal spaces (e.g. .space--mv--small)
+@each $size-name, $size-value in $space-sizes {
+  .space--mv--#{$size-name} {
+    margin-bottom: $size-value;
+    margin-top: $size-value;
+  }
+
+  .space--pv--#{$size-name} {
+    padding-bottom: $size-value;
+    padding-top: $size-value;
+  }
+
+  .space--ph--#{$size-name} {
+    padding-left: $size-value;
+    padding-right: $size-value;
+  }
+
+  .space--pg--#{$size-name} {
+    padding: $size-value;
+  }
+}
+
+.space__vertical-siblings--large {
+  & + & {
+    margin-top: $space--large;
+  }
+}
+
+.space__horizontal-siblings--large {
+  display: inline-block;
+
+  & + & {
+    margin-left: 20px;
+  }
+}

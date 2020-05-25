@@ -1,0 +1,44 @@
+// Background Colors
+$background-color--base: $white;
+$background-color--dark: $black;
+
+// Colors
+$color--base: $black;
+$color--action: $blue;
+$color--light: $white;
+$color--primary: $blue;
+
+// Container Sizes
+$container-width--base: 700px;
+$container-width--small: 350px;
+$container-width--medium: 500px;
+
+// Font Colors
+$font-color--base: $color--base;
+$font-color--action: $color--action;
+$font-color--brand: $color--primary;
+$font-color--light: $color--light;
+
+// Font Size
+$font-size--base: 18px;
+$font-size--small: $font-size--base * 0.875;
+$font-size--large: $font-size--base * 4;
+
+// Line Heights
+$line-height--body: 1.5;
+$line-height--heading: 1.15;
+
+// Space
+$space--base: 1rem;
+$space--x-small: $space--base * 0.25;
+$space--small: $space--base * 0.5;
+$space--medium: $space--base * 1.5;
+$space--large: $space--base * 2;
+$space--x-large: $space--base * 4;
+
+// Borders
+$border--base: 2px;
+$border--small: $border--base / 2;
+$border--medium: $border--base * 1.5;
+$border--large: $border--base * 2;
+$border--color: $color--primary;
