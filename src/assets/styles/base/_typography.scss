@@ -18,16 +18,15 @@ h6 {
   font-family: $font-family--heading;
   font-weight: $font-weight--normal;
   line-height: $line-height--heading;
-  margin: 0 0 $space--small;
+  margin: 0 0 $space--base;
 }
 
 p {
-  margin: 0 0 $space--small;
+  margin: 0 0 $space--base;
 }
 
 a {
-  color: $font-color--action;
-  font-weight: 700;
+  font-weight: $font-weight--bold;
   text-decoration: none;
 
   &:hover {
