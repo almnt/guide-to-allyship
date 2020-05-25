@@ -2,24 +2,36 @@
   max-width: $width;
 }
 
-@mixin container--center {
+@mixin container--h-center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.container--base {
+  @include container--h-center;
+  @include container--width($container-width--base);
+  padding-left: $space--medium;
+  padding-right: $space--medium;
+}
+
+.container--center {
+  margin: auto;
+}
+
+.container--small {
+  @include container--h-center;
+  @include container--width($container-width--small);
   padding-left: $space--base;
   padding-right: $space--base;
 }
 
-.container--base {
-  @include container--center;
-  @include container--width($container-width--base);
-}
-
-.container--small {
-  @include container--center;
-  @include container--width($container-width--small);
-}
-
 .container--medium {
-  @include container--center;
+  @include container--h-center;
   @include container--width($container-width--medium);
+  padding-left: $space--base;
+  padding-right: $space--base;
+}
+
+.container--width-260 {
+  max-width: 260px;
 }
