@@ -7,7 +7,7 @@ Visit [www.guidetoallyship.com](https://www.guidetoallyship.com) to learn more.
 
 ## Contribute
 
-If you’re interested in contributing, please submit a pull request or shoot an email to guidetoallyship [at] byamelie [dot] co. :sparkling_heart: Please read the [Code of Conduct](https://github.com/almnt/guide-to-allyship/blob/master/CODE_OF_CONDUCT.md) before contributing.
+If you’re interested in contributing, please read the [contributing guidelines](https://github.com/almnt/guide-to-allyship/blob/master/CONTRIBUTING.md) and then submit a pull request or shoot an email to guidetoallyship [at] byamelie [dot] co. :sparkling_heart: Please read the [Code of Conduct](https://github.com/almnt/guide-to-allyship/blob/master/CODE_OF_CONDUCT.md) before contributing.
 
 This guide in its current iteration would not be possible without the [contributors](https://github.com/almnt/guide-to-allyship/graphs/contributors) who have made many improvements. If this guide has helped you in any way, please thank them.
 
