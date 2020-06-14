@@ -13,7 +13,7 @@ This guide in its current iteration would not be possible without the [contribut
 
 ## Support
 
-This guide is a labor of love and provided as a shareable resource. If you’ve found this guide helpful, feel free to show your support and [buy me a cup of tea.](https://www.buymeacoffee.com/amelie)
+This guide is a labor of love and provided as a shareable resource. If you’ve found this guide helpful, feel free to show your support and [buy me a cup of tea.](https://www.buymeacoffee.com/amelie) Donations allow me to re-invest in the guide, as well as in other social good and social justice projects. 🙏🏾🎉
 
 ## License
 
