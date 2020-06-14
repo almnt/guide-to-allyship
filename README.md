@@ -1,7 +1,7 @@
 # Guide to Allyship
 The Guide to Allyship is an open source starter guide to help you become a more thoughtful and effective ally.
 
-Think of this guide as one of many starting points in your journey to become a better ally. This guide isn’t meant to be comprehensive nor is it perfect. There are people far more versed than I, who have dedicated their life’s work to this sort of education.
+Think of this guide as one of many starting points in your journey to become a better ally. This guide isn’t meant to be comprehensive nor is it perfect. There are people far more versed than I, who have dedicated their life’s work to this sort of education. My hope is that this guide encourages you to continue your education as an ally.
 
 Visit [www.guidetoallyship.com](https://www.guidetoallyship.com) to learn more.
 
