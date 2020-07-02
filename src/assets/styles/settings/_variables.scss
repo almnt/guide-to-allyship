@@ -4,9 +4,12 @@ $background-color--dark: $black;
 
 // Colors
 $color--base: $black;
-$color--action: $blue;
+$color--action--light: $blue-light;
+$color--action--dark: $blue-dark;
+
 $color--light: $white;
-$color--primary: $blue;
+$color--primary--light: $blue-light;
+$color--primary--dark: $blue-dark;
 
 // Container Sizes
 $container-width--base: 700px;
@@ -15,8 +18,10 @@ $container-width--medium: 500px;
 
 // Font Colors
 $font-color--base: $color--base;
-$font-color--action: $color--action;
-$font-color--brand: $color--primary;
+$font-color--action--light: $color--action--light;
+$font-color--action--dark: $color--action--dark;
+$font-color--brand--light: $color--primary--light;
+$font-color--brand--dark: $color--primary--dark;
 $font-color--light: $color--light;
 
 // Font Size
@@ -41,4 +46,4 @@ $border--base: 2px;
 $border--small: $border--base / 2;
 $border--medium: $border--base * 1.5;
 $border--large: $border--base * 2;
-$border--color: $color--primary;
+$border--color: $color--primary--light;

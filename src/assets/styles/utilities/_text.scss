@@ -1,5 +1,9 @@
 .text--highlight {
-  color: $font-color--brand;
+  color: $font-color--brand--light;
+}
+
+.text--highlight--dark {
+  color: $font-color--brand--dark;
 }
 
 .text--headline {
