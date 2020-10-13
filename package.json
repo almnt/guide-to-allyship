@@ -21,6 +21,8 @@
     "@11ty/eleventy": "^0.10.0"
   },
   "dependencies": {
-    "eleventy-plugin-sass": "^1.1.1"
+    "eleventy-plugin-sass": "^1.1.1",
+    "http-proxy": "^1.18.1",
+    "yargs-parser": "^20.2.1"
   }
 }
