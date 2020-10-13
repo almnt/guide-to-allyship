@@ -21,6 +21,6 @@
     "@11ty/eleventy": "^0.10.0"
   },
   "dependencies": {
-    "eleventy-plugin-sass": "^1.0.0"
+    "eleventy-plugin-sass": "^1.1.1"
   }
 }
