@@ -1,4 +1,4 @@
-Copyright (c) 2016–2021 Amélie Lamont
+Copyright (c) 2016–2021 Amélie Lamont  
 by amélie. studio (https://byamelie.studio/)
 
 # License and Usage
@@ -20,7 +20,7 @@ If you'd like to show your appreciation for the Guide, you're welcome to do so h
 
 ## Terms of Use for corporate and commercial usage
 
-**As of March 15, 2021:** Permission is will be granted, for a fee, to any business, corporation, or individual intending to use the guide in a paid work. Once payment is provided, copies of this guide and associated documentation files (the "Guide") may be used, with restriction—the terms of which will be negotiated.
+**As of March 15, 2021:** Permission will be granted, for a fee, to any business, corporation, or individual intending to use the guide in a paid work. Once payment is provided, copies of this guide and associated documentation files (the "Guide") may be used, with restriction—the terms of which will be negotiated.
 
 If you are the member of a corporation and/or would like to use the Guide in a commercial capacity or for corporate trainings, please fill [out the following form](https://byamelie.typeform.com/to/yQLOD6GG).
 
