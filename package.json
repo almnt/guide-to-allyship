@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/almnt/guide-to-allyship#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
     "eleventy-plugin-sass": "^1.2.0",
