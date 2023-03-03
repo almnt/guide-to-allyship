@@ -1,6 +1,5 @@
-# Ignore Eleventy output folder
-
-_site/
+## Ignore Eleventy output folder
+dist
 
 ## Ignore weird Mac file
 .DS_Store
