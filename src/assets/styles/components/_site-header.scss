@@ -1,16 +1,33 @@
 .site-header {
-  border-top: 20px solid $color--base;
+  background-color: $green-dark;
+  background-image: url('/assets/img/background.jpg');
+  background-size: cover;
+  border-bottom: 20px solid $green-dark;
   display: flex;
   min-height: 100vh;
   position: relative;
 }
 
+.site-header__logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 .site-header__title {
-  color: $font-color--base;
+  color: $cream;
   font-family: $font-family--heading;
-  font-size: $font-size--large;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: $line-height--heading;
   margin-bottom: $space--medium;
   text-transform: uppercase;
+}
+
+.site-header__copy {
+  color: $cream;
+}
+
+.site-header a {
+  color: $font-color--action--light;
 }

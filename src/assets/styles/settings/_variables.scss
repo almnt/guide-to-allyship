@@ -1,15 +1,15 @@
 // Background Colors
-$background-color--base: $white;
+$background-color--base: $cream;
 $background-color--dark: $black;
 
 // Colors
-$color--base: $black;
-$color--action--light: $blue-light;
-$color--action--dark: $blue-dark;
+$color--base: $green-dark;
+$color--action--light: $green-light;
+$color--action--dark: $green-dark;
 
-$color--light: $white;
-$color--primary--light: $blue-light;
-$color--primary--dark: $blue-dark;
+$color--light: $cream;
+$color--primary--light: $green-light;
+$color--primary--dark: $green-dark;
 
 // Container Sizes
 $container-width--base: 700px;
@@ -43,7 +43,7 @@ $space--x-large: $space--base * 4;
 
 // Borders
 $border--base: 2px;
-$border--small: $border--base / 2;
+$border--small: calc($border--base / 2);
 $border--medium: $border--base * 1.5;
 $border--large: $border--base * 2;
 $border--color: $color--primary--light;

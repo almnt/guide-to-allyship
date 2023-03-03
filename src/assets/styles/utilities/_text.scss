@@ -2,31 +2,50 @@
   color: $font-color--brand--light;
 }
 
-.text--highlight--dark {
-  color: $font-color--brand--dark;
+.text--lavender {
+  color: $lavender;
+}
+
+.text--green-light {
+  color: $green-light;
+}
+
+.text--green-medium {
+  color: $green-medium;
 }
 
 .text--headline {
-  text-transform: uppercase;
-
   &--1 {
-    font-size: 64px;
+    font-size: 46px;
     line-height: 1.2;
   }
 
   &--2 {
-    font-size: 32px;
+    font-size: 38px;
     line-height: 1.2;
   }
 
   &--3 {
-    font-size: 24px;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  &--4 {
+    font-size: 28px;
     line-height: 1.2;
   }
 }
 
 .text--lowercase {
   text-transform: lowercase;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text--bold {
+  font-weight: $font-weight--bold;
 }
 
 .text--emphasis {

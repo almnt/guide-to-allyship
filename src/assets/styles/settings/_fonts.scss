@@ -1,6 +1,31 @@
+@font-face {
+  font-family: 'GlacialInd Bold';
+  src: url('../fonts/glacialind-bold.woff2') format('woff2'),
+       url('../fonts/glacialind-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GlacialInd Italic';
+  src: url('../fonts/glacialind-ital.woff2') format('woff2'),
+       url('../fonts/glacialind-ital.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'GlacialInd Regular';
+  src: url('../fonts/glacialind-reg.woff2') format('woff2'),
+       url('../fonts/glacialind-reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Font Family
 $font-family--base: "Open Sans", sans-serif;
-$font-family--heading: "Fjalla One", sans-serif;
+$font-family--heading: "GlacialInd Regular", sans-serif;
 
 // Font Weights
 $font-weight--normal: 400;

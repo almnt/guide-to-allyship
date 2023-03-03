@@ -27,7 +27,7 @@ p {
 
 a {
   font-weight: $font-weight--bold;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
     text-decoration: wavy;
