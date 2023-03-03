@@ -1,11 +1,10 @@
-const pluginSass = require("eleventy-plugin-sass");
+const eleventySass = require("eleventy-sass");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginSass, {
-    watch: ['src/**/*.{scss,sass}', '!node_modules/**'],
-  });
-
+  eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPassthroughCopy('favicon.ico');
+  eleventyConfig.addPassthroughCopy('src/assets/img');
+  eleventyConfig.addPassthroughCopy('src/assets/fonts');
 
   return {
     templateFormats: [
@@ -15,7 +14,7 @@ module.exports = function(eleventyConfig) {
       input: "src",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "dist"
     }
   };
 };

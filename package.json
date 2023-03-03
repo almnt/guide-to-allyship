@@ -1,30 +1,8 @@
 {
-  "name": "pp-guide-to-allyship", 
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/almnt/guide-to-allyship.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/almnt/guide-to-allyship/issues"
-  },
-  "homepage": "https://github.com/almnt/guide-to-allyship#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^2.0.0"
   },
   "dependencies": {
-    "eleventy-plugin-sass": "^1.2.0",
-    "http-proxy": "^1.18.1",
-    "pug": "^3.0.1",
-    "pug-code-gen": "^3.0.2",
-    "yargs-parser": "^20.2.7"
+    "eleventy-sass": "^2.2.1"
   }
 }
